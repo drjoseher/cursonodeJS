@@ -1,0 +1,2 @@
+Conectar BBDD mongo
+C:\mongo\mongodb\bin\mongod.exe --dbpath=C:\mongo\mongo-data
