@@ -1,8 +1,6 @@
 const sgmail = require('@sendgrid/mail')
 
-// REFACTOR APIKEY SECURITY
-
-sgmail.setApiKey(sendgrindApiKey);
+sgmail.setApiKey(process.env.SEND_GRID_API_KEY);
 
 const sendWelcomeMail = (email, name) =>{
   sgmail.send({

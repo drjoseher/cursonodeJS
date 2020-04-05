@@ -3,4 +3,4 @@
 /task-manager/node_modules
 /weather-app/node_modules
 /web-server/node_modules
-/task-manager/avatars/5cfb0d2b4657921d158378007d9348c1
+/task-manager/config/dev.env
